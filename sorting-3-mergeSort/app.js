@@ -31,6 +31,6 @@ function sort(arr) {
     return mergedArr;
 }
 
-console.log(sort([-10, 33, 5, 2, -19, 0, -99, 100, 101, 100, 1]))
+console.log(sort([-10, 33, 5, 2, -19, 0, -99, 100, 101, 100, 1, 102, 1, 99, -99, -23, 23, 24, -24]))
 
 
