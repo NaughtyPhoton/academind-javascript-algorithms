@@ -20,8 +20,8 @@ function sort(arr) {
         ) {
 
         if (
-            leftArrIndex >= leftSortedArr.length
-            || leftSortedArr[leftArrIndex] > rightSortedArr[rightArrIndex]
+            leftArrIndex >= leftSortedArr.length ||
+            leftSortedArr[leftArrIndex] > rightSortedArr[rightArrIndex]
         ) {
             mergedArr.push(rightSortedArr[rightArrIndex++]);
         } else {
