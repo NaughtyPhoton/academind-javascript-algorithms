@@ -8,7 +8,7 @@ function fact(number) {
     if (number === 1) {
         return 1;
     }
-    return number * fact(--number); // n
+    return number * fact(--number);
 }
 // O(n) => Linear
 // In every function call, we have O(1)
